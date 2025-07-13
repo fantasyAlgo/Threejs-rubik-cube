@@ -13,4 +13,5 @@ And go to the specified address.
 - Use y to move through the y-coordinate using the mouse
 - Click on 'Scramble' to make a random **valid** Rubik cube.
 - Swipe on each side to rotate it in any way.
+
 Good luck solving the cube!
