@@ -1,4 +1,4 @@
-//import * as THREE from 'three';
+import * as THREE from 'three';
 
 export let positionToIndex = (x, y, z) => [Math.round((z + 1.2)/1.2), Math.round(3*(x + 1.2)/1.2 + (y + 1.2)/1.2)];
 export let rotationHandler = (theta) => [[Math.cos(theta), -Math.sin(theta)], [Math.sin(theta), Math.cos(theta)]];

@@ -1,4 +1,4 @@
-//import * as THREE from 'three';
+import * as THREE from 'three';
 
 import { positionToIndex, rotationHandler, matmul2d, rotateXAxis, rotateYAxis, rotateZAxis, facingDirection } from './helpers.js';
 

@@ -6,8 +6,15 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body bgcolor="#000000">
-    <script src="https://unpkg.com/three@0.160.1/build/three.min.js"></script>
-		<button id="PAW" class="pauseButton"> Scramble </button>
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@v0.149.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.149.0/examples/jsm/"
+      }
+    }
+    </script>		
+    <button id="PAW" class="pauseButton"> Scramble </button>
 		<script type="module" src="/main.js"></script>
 	</body>
 </html>
